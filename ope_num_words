@@ -1,0 +1,13 @@
+def get_book_text(filepath):
+    with open(filepath) as f:
+        file_contents = f.read()
+        return file_contents
+    
+def main():
+    path = "books/frankenstein.txt" # sets the path to a string
+    text = get_book_text(path) # calls get_book_text and stores the result
+    word_number= #gets number of words 
+    print ("Found" text.split "total words") # Prints the results 
+
+
+main()
